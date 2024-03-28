@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+        }
+        .nav {
+            height: 40px;
+            background: #333;
+            box-shadow: 0 1px 2 #333;
+        }
+        .navlist .btli a{
+            color: #fff;
+
+        }
+        .navlist .btli{
+            float: left;
+            width: 100px;
+            text-align: center;
+            line-height: 40px;
+        }
+        .dropdown{
+            display: none;
+        }
+        .btli:hover .dropdown{
+            display: block;
+            background: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul class="navlist">
+            <li class="btli"><a href="#">首页</a>
+                <ul class="dropdown">
+                    <li><a href="#">子菜单1</a></li>
+                    <li><a href="#">子菜单2</a></li>
+                    <li><a href="#">子菜单3</a></li>
+                </ul>
+            </li>
+            <li class="btli">
+                <a href="#">下拉菜单</a>
+                <ul class="dropdown">
+                    <li><a href="#">子菜单1</a></li>
+                    <li><a href="#">子菜单2</a></li>
+                    <li><a href="#">子菜单3</a></li>
+                </ul>
+            </li>
+            <li class="btli">
+                <a href="#">下拉菜单</a>
+                <ul class="dropdown">
+                    <li><a href="#">子菜单1</a></li>
+                    <li><a href="#">子菜单2</a></li>
+                    <li><a href="#">子菜单3</a></li>
+                </ul>
+            </li>
+            <li class="btli">
+                <a href="#">下拉菜单</a>
+                <ul class="dropdown">
+                    <li><a href="#">子菜单1</a></li>
+                    <li><a href="#">子菜单2</a></li>
+                    <li><a href="#">子菜单3</a></li>
+                </ul>
+            </li>
+            <li class="btli"><a href="#">导航</a>
+            <ul class="dropdown">
+                <li><a href="#">子菜单1</a></li>
+                <li><a href="#">子菜单2</a></li>
+                <li><a href="#">子菜单3</a></li>
+            </ul>
+            <li class="btli"><a href="#">导航</a>
+            <ul class="dropdown">
+                <li><a href="#">子菜单1</a></li>
+                <li><a href="#">子菜单2</a></li>
+                <li><a href="#">子菜单3</a></li>
+            </ul>
+            <li class="btli"><a href="#">导航</a>
+            <ul class="dropdown">
+                <li><a href="#">子菜单1</a></li>
+                <li><a href="#">子菜单2</a></li>
+                <li><a href="#">子菜单3</a></li>
+            </ul>
+        </ul>
+    </div>
+</body>
+</html>
